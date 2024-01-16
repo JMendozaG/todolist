@@ -167,10 +167,8 @@
 
 @media (max-width: 768px) {
     .list {
-      margin: 25px auto;
-      padding: 25px;
-      background-color: var(--light);
-      width: 100%;
+      margin: 25px;
       
+      max-width: 600px;
     }
   }
