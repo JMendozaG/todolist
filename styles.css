@@ -163,3 +163,14 @@
     background-color: #99A0B8;
     color: white;
   }
+
+
+@media (max-width: 768px) {
+    .list {
+      margin: 25px auto;
+      padding: 25px;
+      background-color: var(--light);
+      width: 100%;
+      
+    }
+  }
