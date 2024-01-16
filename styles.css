@@ -165,10 +165,10 @@
   }
 
 
-@media (max-width: 1080px) {
+@media (max-width: 768px) {
     .list {
-      margin: 25px;
+      margin: 5%;
       
-      max-width: 600px;
+      max-width: 80%;
     }
   }
