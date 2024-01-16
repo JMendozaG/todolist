@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <div class="list roudnBorder">
+      <div class="date">
+        <div class="dateRight">
+          <div id="dateNumber"></div>
+              <div>
+                <div id="dateMonth"></div>
+                <div id="dateYear"></div>
+              </div>
+        </div>
+        <div id="dateText"></div>
+      </div>
+          <form id="task-form">
+           <div class="inputs-container">
+            <input type="text" name="taskText" autocomplete="off" placeholder="Nueva Tarea" class="roudnBorder" id="task-title">
+            <textarea name="" id="task-description" cols="" autocomplete="off" rows="5" class="roudnBorder" placeholder="Descripcion"></textarea>
+           </div>
+                
+           
+          <div class="btn-container">
+           
+            <button type="submit" class="orderButton roudnBorder" id="btn-task-save" >Agregar</button>
+          </div>
+            
+          
+          
+          </form>
+            <div id="tasks-container"></div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
