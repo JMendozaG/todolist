@@ -165,10 +165,12 @@
   }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1085px) {
     .list {
-      margin: 5%;
-      
+      margin: 25px auto;
+      padding: 25px;
+      background-color: var(--light);
+      width: 100%;
       max-width: 80%;
-    }
+  }
   }
