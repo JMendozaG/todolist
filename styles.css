@@ -166,6 +166,12 @@
     color: white;
   }
 
+.task-container{
+
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
   @media screen and (max-width: 1080px)  {
     .list {
      width: 80%;
